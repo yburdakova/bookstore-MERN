@@ -2,7 +2,7 @@
 
 function DeleteBook() {
   return (
-    <div>CreateBook</div>
+    <div>DeleteBook</div>
   )
 }
 

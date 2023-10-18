@@ -1,9 +1,9 @@
 // import React from 'react'
 
-function CreateBooks() {
+function EditBooks() {
   return (
-    <div>CreateBooks</div>
+    <div>EditBooks</div>
   )
 }
 
-export default CreateBooks
+export default EditBooks

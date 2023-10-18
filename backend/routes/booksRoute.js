@@ -46,7 +46,7 @@ router.get('/', async (request, response) => {
 });
 
 //  Get One Book from database by id
-router.get(':id', async (request, response) => {
+router.get('/:id', async (request, response) => {
 
     try {
     const { id } = request.params;

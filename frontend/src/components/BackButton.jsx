@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-import { BsArrowLeft } from "react-icons/bs"
+import { BsArrowLeft } from "react-icons/bs";
+import PropTypes from 'prop-types';
 
 
 const BackButton = ({ destination = '/'}) => {
@@ -15,6 +16,9 @@ const BackButton = ({ destination = '/'}) => {
     )
 }
 
+BackButton.propTypes = {
+    destination: PropTypes.string, 
+}
 
 
 export default BackButton
